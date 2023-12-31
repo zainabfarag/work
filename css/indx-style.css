@@ -1,0 +1,247 @@
+ * {
+     box-sizing: border-box;
+
+ }
+
+ :root {
+     --mean-font {
+         font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     }
+
+     scroll-padding-top: 62px;
+ }
+
+ body {
+     background-color: #F5F5F5;
+
+ }
+
+ nav a {
+     color: white !important;
+ }
+
+ nav {
+     background-color: #080507;
+ }
+
+ .dropdown-color li a {
+     color: black !important;
+ }
+
+ header {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0% 100%), url(../imges/hero-bg.jpg);
+     height: 100vh;
+     background-attachment: fixed;
+     background-position: center center;
+     position: relative;
+ }
+
+ /* .layer
+{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(00, 00, 00, 0.5);
+} */
+ .content-header h1 {
+     color: white;
+     font-family: var(--mean-font);
+     font-size: 70px;
+ }
+
+ .content-header h3 {
+     color: white;
+     font-family: var(--mean-font);
+     text-align: center;
+ }
+
+ .about-color {
+     background-color: #F5F5F5;
+ }
+
+ .content h5 {
+     position: relative;
+ }
+
+ .content h5::after {
+     content: "";
+     position: absolute;
+     left: 5px;
+     bottom: 0;
+     width: 17%;
+     height: 3px;
+     background-color: #0078FF;
+ }
+
+ .after p {
+     position: relative;
+ }
+
+ .after p::after {
+     content: "";
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     width: 4%;
+     height: 4px;
+     background-color: #0078FF;
+ }
+
+ .i-after i {
+     color: #1e1e1e;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: 100px;
+     margin: auto;
+     box-shadow: 0 0 0 10px #0078ff;
+     border-radius: 50%;
+ }
+
+ .i-after i:hover {
+     color: white;
+     box-shadow: 0 0 0 10px rgba(0, 119, 255, 0.5);
+     border-radius: 50%;
+     background-color: #0078ff;
+     overflow: hidden;
+ }
+
+ .ser-img {
+     background-image: linear-gradient(rgba(0, 119, 255, 0.6) 0% 100%), url(../imges/counters-bg.jpg);
+     background-position: 100%, 100%;
+     background-size: cover;
+     min-height: 60vh;
+ }
+
+ .i-style i {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 60px;
+     height: 60px;
+     margin: auto;
+     box-shadow: 0 0 0 10px #CDE1F8;
+     border-radius: 50%;
+ }
+
+ .sp-color {
+     color: #1D87FF;
+ }
+
+ .i-style2 {
+     color: #0078FF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 35px;
+     height: 35px;
+     /* position: relative;
+    left: 90%;
+   bottom:  20%; */
+     margin-left: 90%;
+     margin-top: -9%;
+     box-shadow: 0 0 0 3px #0078ff;
+     border-radius: 50%;
+
+ }
+
+ .img-style img:hover {
+     transform: scale(1.4, 1.4);
+     transition: all 1s;
+
+ }
+
+ .ser-img2 {
+     background-image: linear-gradient(rgba(0, 119, 255, 0.6) 0% 100%), url(../imges/overlay-bg.jpg);
+     background-position: 100%, 100%;
+     background-size: cover;
+     height: 85vh;
+     
+ }
+
+ .carousel-indicators [data-bs-target] {
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+
+ }
+ .img-width{
+    width: 30px;
+    height: 30px;
+ }
+ .a-hover a {
+    color: gray;
+    transition: all 1s;
+ }
+.a-hover a:hover {
+   color: #0078FF;
+}
+.span-color{
+    background-color: #0078FF;
+    font-size: 10px;
+    
+}
+/* ----------footer---------- */
+.ser-img3 {
+    background-image: linear-gradient(rgba(0, 119, 255, 0.6) 0% 100%), url(../imges/overlay-bg.jpg);
+    background-position: 100%, 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.footer-color{
+    background-color: #0062D3;
+}
+.i-style3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    /* position: relative; */
+    /* right: -97%; */
+    /* right: 10px; */
+    left: 10px;
+        border-radius: 50%;
+    background-color: #248BFF;
+
+}
+/* ----------form-contact-------- */
+.button-style button {
+    color: white;
+background-color: #0078ff;
+padding: 15px 30px;
+border-radius: 30px;
+margin: 20px;
+transition: all 1s;
+}
+.button-style button:hover {
+    box-shadow: 0 0 0 5px #CDE1F8;
+background-color: #3393FF;
+
+}
+.i-color{
+    color: #3393FF;
+
+}
+.i-after1 i {
+    color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    box-shadow: 0 0 0 4px #0078ff;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.i-after1 i:hover {
+    color: white;
+    box-shadow: 0 0 0 4px rgba(0, 119, 255, 0.5);
+    border-radius: 50%;
+    background-color: #0078ff;
+    overflow: hidden;
+}
